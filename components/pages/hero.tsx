@@ -19,7 +19,7 @@ export default function HeroHeader() {
           </h2>
         </div>
         <div className="grid w-full max-w-sm items-center gap-3">
-          <Input type="email" id="email" placeholder="Email" />
+          <Input type="email" id="email" placeholder="Type your email" />
         </div>
         <Link
           href=""
