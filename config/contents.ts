@@ -8,8 +8,9 @@ import { HeroHeader, ContentSection } from "@/types/contents"
  ==================== */
 
 export const heroHeader: HeroHeader = {
-  header: `Unmotivated to release your game?`,
-  subheader: `We've got you covered, from planning to launch!`,
+  header: `Build Your Dream Game`,
+  subheader: `Got a game idea swirling in your head? Awesome—but staring at a blank screen and wondering where to even begin can quickly kill your momentum. You’re not alone.`,
+  subtext: `That’s why we’re here. We’ve built a platform that helps you bring your vision to life, step by step. Whether you’re a solo developer or part of a team, our tools and resources are designed to help you turn your ideas into reality.`,
   image: `/hero-img.webp`,
 }
 

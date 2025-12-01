@@ -17,6 +17,9 @@ export default function HeroHeader() {
           <h2 className="text-lg font-light text-muted-foreground lg:text-3xl">
             {heroHeader.subheader}
           </h2>
+          <p className="text-m font-light text-muted-foreground lg:text-lg">
+            {heroHeader.subtext}
+          </p>
         </div>
         <div className="grid w-full max-w-sm items-center gap-3">
           <Input type="email" id="email" placeholder="Type your email" />
