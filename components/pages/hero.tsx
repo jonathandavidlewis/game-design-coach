@@ -17,9 +17,9 @@ export default function HeroHeader() {
           <h2 className="text-lg font-light text-muted-foreground lg:text-3xl">
             {heroHeader.subheader}
           </h2>
-          <p className="text-m font-light text-muted-foreground lg:text-lg">
-            {heroHeader.subtext}
-          </p>
+            <p className="text-center">
+              {heroHeader.subtext}
+            </p>
         </div>
         <div className="grid w-full max-w-sm items-center gap-3">
           <Input type="email" id="email" placeholder="Type your email" />
@@ -27,10 +27,15 @@ export default function HeroHeader() {
         <Link
           href=""
           target="_blank"
-          className={`w-[10rem] ${cn(buttonVariants({ size: "lg" }))}`}
+          className={`w-[12rem] ${cn(buttonVariants({ size: "lg" }))}`}
         >
-          Submit
+          Join The Waitlist
         </Link>
+      </div>
+      <div>
+      <p>
+        No spam. We’ll only email you with important updates.
+      </p>
       </div>
       {heroHeader.image !== "" ? (
         <div className="flex flex-1 justify-center lg:justify-end">
