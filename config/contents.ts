@@ -37,8 +37,8 @@ export const featureCards: ContentSection = {
 }
 
 export const features: ContentSection = {
-  header: `Features`,
-  subheader: `Why use Next Landing?`,
+  header: `Designed for your goals.`,
+  subheader: `Our AI-powered coach helps you cut through the noise and identify the single most important step to take next.`,
   image: `/features-img.webp`,
   content: [
     {
