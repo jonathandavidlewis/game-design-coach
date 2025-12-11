@@ -1,13 +1,13 @@
 import Hero from "@/components/pages/hero"
-import FeatureCards from "@/components/pages/feature-cards"
-import Features from "@/components/pages/features"
+import OutcomeCards from "@/components/pages/outcome-cards"
+import Build from "@/components/pages/build"
 
 export default function Home() {
   return (
     <main>
       <Hero />
-      <FeatureCards />
-      <Features />
+      <Build />
+      <OutcomeCards />
     </main>
   )
 }

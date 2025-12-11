@@ -4,7 +4,6 @@ import { buttonVariants } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { heroHeader } from "@/config/contents"  
 import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
 
 export default function HeroHeader() {
   return (

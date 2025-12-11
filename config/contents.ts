@@ -1,4 +1,5 @@
 import { HeroHeader, ContentSection } from "@/types/contents"
+import { OutcomeCards } from "@/types/contents"
 
 /* ====================
 [> CUSTOMIZING CONTENT <]
@@ -14,24 +15,21 @@ export const heroHeader: HeroHeader = {
   image: `/hero-img.webp`,
 }
 
-export const featureCards: ContentSection = {
+export const outcomeCards: OutcomeCards = {
   header: `Stop guessing, start building.`,
   subheader: `Our AI-powered coach helps you cut through the noise and identify the single most important step to take next.`,
   content: [
     {
-      text: `Next.js`,
-      subtext: `The React Framework`,
-      icon: "nextjs",
+      title: `Passion Project`,
+      text1: `Clarify your vision`,
+      text2: `Focus on what feels meaningful`,
+      icon: "check",
     },
     {
-      text: `shadcn/ui`,
-      subtext: `Beautifully designed components`,
-      icon: "shadcnUi",
-    },
-    {
-      text: `Vercel`,
-      subtext: `Develop. Preview. Ship.`,
-      icon: "vercel",
+      title: `Income-generating game`,
+      text1: `Scope for sustainability`,
+      text2: `Prioritize features that support revenue`,
+      icon: "check",
     },
   ],
 }

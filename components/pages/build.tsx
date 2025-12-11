@@ -3,7 +3,7 @@ import HeadingText from "@/components/heading-text"
 import { features } from "@/config/contents"
 import { Icons } from "@/components/icons"
 
-export default function Features() {
+export default function Build() {
   return (
     <section className="container space-y-8 py-12 lg:py-20" id="features">
       {features.header || features.subheader ? (
