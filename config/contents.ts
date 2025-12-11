@@ -15,8 +15,8 @@ export const heroHeader: HeroHeader = {
 }
 
 export const featureCards: ContentSection = {
-  header: `Powered by`,
-  subheader: `What makes Next Landing possible`,
+  header: `Stop guessing, start building.`,
+  subheader: `Our AI-powered coach helps you cut through the noise and identify the single most important step to take next.`,
   content: [
     {
       text: `Next.js`,
