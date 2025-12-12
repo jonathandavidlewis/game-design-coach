@@ -7,12 +7,6 @@ export type HeroHeader = {
   image: string
 }
 
-export type Content = {
-  text: string
-  subtext: string
-  icon?: IconKeys
-}
-
 export type Outcomes = {
   title: string
   text1: string
@@ -23,8 +17,6 @@ export type Outcomes = {
 export type ContentSection = {
   header: string
   subheader: string
-  image?: string
-  content: Array<Content>
 }
 
 export type OutcomeCards = {

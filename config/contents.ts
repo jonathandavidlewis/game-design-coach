@@ -15,9 +15,14 @@ export const heroHeader: HeroHeader = {
   image: `/hero-img.webp`,
 }
 
-export const outcomeCards: OutcomeCards = {
+export const buildSection: ContentSection = {
   header: `Stop guessing, start building.`,
   subheader: `Our AI-powered coach helps you cut through the noise and identify the single most important step to take next.`,
+}
+
+export const outcomeCards: OutcomeCards = {
+  header: `Designed for your goals.`,
+  subheader: `Whether you're building a passion project just to bring your vision to life, or creating a game with the potential to generate income, we’ll help you define a scope and features that align with your goals.`,
   content: [
     {
       title: `Passion Project`,
@@ -34,25 +39,3 @@ export const outcomeCards: OutcomeCards = {
   ],
 }
 
-export const features: ContentSection = {
-  header: `Designed for your goals.`,
-  subheader: `Our AI-powered coach helps you cut through the noise and identify the single most important step to take next.`,
-  image: `/features-img.webp`,
-  content: [
-    {
-      text: `SEO Optimized`,
-      subtext: `Improved website visibility on search engines`,
-      icon: "fileSearch",
-    },
-    {
-      text: `Highly Performant`,
-      subtext: `Fast loading times and smooth performance`,
-      icon: "barChart",
-    },
-    {
-      text: `Easy Customizability`,
-      subtext: `Change your content and layout with little effort`,
-      icon: "settings",
-    },
-  ],
-}

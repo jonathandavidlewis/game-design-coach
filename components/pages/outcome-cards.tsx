@@ -6,7 +6,7 @@ import { Icons } from "@/components/icons"
 
 export default function OutcomeCards() {
   return (
-    <section className="bg-slate-50 dark:bg-slate-900">
+    <section className="container flex flex-col gap-4 pb-12 pt-4 text-center lg:items-center lg:gap-8 lg:py-20">
       <div className="container space-y-8 py-12 text-center lg:py-20">
         {outcomeCards.header ? (
           <HeadingText subtext={outcomeCards.subheader}>
