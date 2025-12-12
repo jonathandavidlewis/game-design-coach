@@ -1,9 +1,7 @@
-import Link from "next/link"
+
 import Image from "next/image"
-import { buttonVariants } from "@/components/ui/button"
-import { cn } from "@/lib/utils"
 import { heroHeader } from "@/config/contents"  
-import { Input } from "@/components/ui/input"
+import CTA from "@/components/ui/cta"
 
 export default function HeroHeader() {
   return (
@@ -20,18 +18,9 @@ export default function HeroHeader() {
               {heroHeader.subtext}
             </p>
         </div>
-        <div className="grid w-full max-w-sm items-center gap-3">
-          <Input type="email" id="email" placeholder="Type your email" />
-        </div>
-        <Link
-          href=""
-          target="_blank"
-          className={`w-[12rem] ${cn(buttonVariants({ size: "lg" }))}`}
-        >
-          Join The Waitlist
-        </Link>
       </div>
       <div>
+        <CTA />
       <p>
         No spam. We’ll only email you with important updates.
       </p>
