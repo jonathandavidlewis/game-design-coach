@@ -1,5 +1,4 @@
-import { HeroHeader, ContentSection } from "@/types/contents"
-import { OutcomeCards } from "@/types/contents"
+import { HeroHeader, BuildSection, OutcomeCards, SkillBuildingSection } from "@/types/contents"
 
 /* ====================
 [> CUSTOMIZING CONTENT <]
@@ -15,7 +14,7 @@ export const heroHeader: HeroHeader = {
   image: `/hero-img.webp`,
 }
 
-export const buildSection: ContentSection = {
+export const buildSection: BuildSection = {
   header: `Stop guessing, start building.`,
   subheader: `Our AI-powered coach helps you cut through the noise and identify the single most important step to take next.`,
 }
@@ -39,3 +38,18 @@ export const outcomeCards: OutcomeCards = {
   ],
 }
 
+export const skillBuildingSection: SkillBuildingSection = {
+  header: `Develop your game design intuition.`,
+  subheader: `Develop your game design intuition with guided exercises and proven design frameworks. We don’t just help you build a game—we teach you to think like a game designer.`,
+  content: [
+    {
+      text: `Guided exercises to clarify your ideas`,
+    },
+    {
+      text: `Proven design frameworks you can reuse`,
+    },
+    {
+      text: `Step-by-step prompts to move from idea to structure`,
+    },
+  ],
+}

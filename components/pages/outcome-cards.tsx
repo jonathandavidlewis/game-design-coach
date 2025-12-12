@@ -1,8 +1,7 @@
-import Image from "next/image"
 import HeadingText from "@/components/heading-text"
 import { outcomeCards } from "@/config/contents"
 import { Card, CardDescription, CardTitle } from "@/components/ui/card"
-import { Icons } from "@/components/icons"
+import { Outcomes } from "@/types/contents"
 
 export default function OutcomeCards() {
   return (
@@ -14,16 +13,13 @@ export default function OutcomeCards() {
           </HeadingText>
         ) : null}
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-          {outcomeCards.content.map((cards) => {
-            const Icon = Icons[cards.icon || "blank"]
-
+          {outcomeCards.content.map((cards: Outcomes) => {
             return (
               <Card
                 key={cards.title}
                 className="flex flex-grow flex-col items-center justify-between gap-4 p-8 dark:bg-secondary"
               >
                 <div className="flex">
-                  <Icon className="h-[6rem] w-[6rem]" />
                 </div>
                 <div className="space-y-2">
                   <CardTitle>{cards.title}</CardTitle>

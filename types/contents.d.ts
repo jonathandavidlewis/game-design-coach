@@ -14,7 +14,7 @@ export type Outcomes = {
   icon?: IconKeys
 }
 
-export type ContentSection = {
+export type BuildSection = {
   header: string
   subheader: string
 }
@@ -23,4 +23,14 @@ export type OutcomeCards = {
   header: string
   subheader: string
   content: Array<Outcomes>
+}
+
+export type SkillBuildingSection = {
+  header: string
+  subheader: string
+  content: Array<SkillBuilding>
+}
+
+export type SkillBuilding = {
+  text: string
 }
